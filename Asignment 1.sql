@@ -1,8 +1,9 @@
+
 drop database if exists salemanagement;
 CREATE DATABASE if not exists salemanagement;
 use salemanagement;
 
-create table Customer (
+CREATE TABLE Customer (
 customer_id 		int,
 customer_name		varchar(50),
 date_of_perchase	date
